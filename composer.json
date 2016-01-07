@@ -1,0 +1,15 @@
+{
+    "name": "concrete5/installers",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concrete\\ComposerInstallers\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Concrete\\ComposerInstallers\\Plugin"
+    }
+}
